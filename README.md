@@ -7,3 +7,5 @@ The following is the maps:
 ![map1](https://github.com/TianrongChen/Motion-planning-RRT-Potential-field/blob/master/map_1.png)
 ![map2](https://github.com/TianrongChen/Motion-planning-RRT-Potential-field/blob/master/map_2.png)
 ![map3](https://github.com/TianrongChen/Motion-planning-RRT-Potential-field/blob/master/map_3.png)
+
+Meanwhile, all the road will generate random obstacle. The car need to replan whenever it finds an obstacle. Here the car is not a point. It has its own size, and the motion planning also need to consider the feasibility.
